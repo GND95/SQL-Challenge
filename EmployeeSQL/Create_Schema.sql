@@ -12,8 +12,8 @@ CREATE TABLE "dept_emp" (
 );
 
 CREATE TABLE "dept_manager" (
-    "emp_no" INTEGER   NOT NULL,
-    "dept_no" VARCHAR(10)   NOT NULL
+    "dept_no" VARCHAR(10)   NOT NULL,
+    "emp_no" INTEGER   NOT NULL
 );
 
 CREATE TABLE "employees" (
